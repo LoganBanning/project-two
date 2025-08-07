@@ -7,12 +7,12 @@ import { Footer } from "./components/Footer.tsx";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="bg-background text-foreground">
       <Navigation />
       <main>
-        <h1 className="text-4xl font-bold text-blue-600 underline">
-          Tailwind is working!
-        </h1>
+        <div className="min-h-screen bg-background text-foreground p-10">
+          <p className="text-2xl font-semibold">Tailwind is working with custom colors!</p>
+        </div>
         <HeroSection />
         <AboutSection />
         <PortfolioSection />
